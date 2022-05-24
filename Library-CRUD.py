@@ -1,4 +1,3 @@
-#Project Perpustakaan Peminjaman Buku
 libraryDict={
     '9793062797':
         {
