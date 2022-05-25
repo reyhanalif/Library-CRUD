@@ -1,6 +1,6 @@
 # Library-CRUD - Book management for Library created in Python
 
-Hello everyone! This is a simple CRUD program created in Python about Book Management for Library. This program intended to demonstrate basic python computation such as conditiononal statement, looping, data collection type, and function. I made this program as a project for Python Introduction on Purwadhika Data Science Program. Making a CRUD program is great way to learn implement all of the basics in programming. In order to complete or add some feature to our program, it also triggers our curiousity to seek another function on a programming language.
+Hello everyone! This is a simple CRUD program created in Python about Book Management for Library. This program intended to demonstrate basic python computation such as conditiononal statement, looping, data collection type, and function. I made this program as a project for Python Introduction on Purwadhika Data Science Program. Making a CRUD program is great way to learn and implement all of the basics in programming. In order to complete or add some feature to our program, it also triggers our curiousity to seek another function on a programming language.
 
 Let's take a look at this program main function.
 
