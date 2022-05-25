@@ -81,7 +81,7 @@ def mainAddBook():
             elif len(addISBN)==13 or len(addISBN)==10:
                 addTitle=input('Please Input the Title of the Book : ')
                 addAuthor=input('please Input the Author of the Book : ')
-                addStatus=input('please Input the Status of the Book : ')
+                addStatus=input('please Input the Status of the Book (Available/Unavailable): ')
                 addLocReturn=input('please Input the Location (if Available) or Return Date (if Unavailable) of the Book : ')
                 if addStatus == 'Unavailable':
                     addBorrower=input('please Input the Borrower ID  : ')
@@ -142,9 +142,9 @@ def mainUpdateBook():
                         if selectUpdate=='Title' or selectUpdate=='Author':
                             libraryDict[updateISBN][selectUpdate]=input(f'Please Input Your Update : ')
                         elif selectUpdate=='Status':
-                            libraryDict[updateISBN]['Status']=input(f'Please Update Borrowing Status : ')          
-                            libraryDict[updateISBN]['Loc/Return Date']=input(f'Please Update Return Date : ')     
-                            libraryDict[updateISBN]['Borrower ID']=input(f'Please Update Borrower ID : ') 
+                            libraryDict[updateISBN]['Status']=input(f'Please Update Borrowing Status (Available/Unavailable): ')          
+                            libraryDict[updateISBN]['Loc/Return Date']=input(f'Please Update Book Location (if Available) or Return Date (if Unvailable) : ')     
+                            libraryDict[updateISBN]['Borrower ID']=input(f'Please Update Borrower ID (input "-" if none): ') 
                         while True:
                             print(' Updated Book Entry '.center(40,'_'),
                             f'\nISBN \t: {updateISBN}',
